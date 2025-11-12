@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>p{
+        color: red;
+        border: 2px solid blue;
+    }
+    </style>
+</head>
+<body>
+    <p>this is p tag</p>
+    <p>this is paragraph tag</p>
+    <button onclick="one()">click</button>
+    <script>                                                                  
+        function one(){
+            document.getElementsByTagName("p")[1].style.color="green"
+        }
+    </script>
+</body>
+</html>
